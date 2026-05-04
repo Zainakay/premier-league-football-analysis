@@ -1,0 +1,23 @@
+# ⚽ Premier League Football Performance Analysis
+
+An end-to-end data analytics project exploring team performance using Premier League match data.
+
+## 📊 Key Insights
+- Successful shots strongly correlate with match outcomes
+- Possession and corners show moderate relationships
+- Logistic regression achieved ~68% accuracy
+
+## 🛠 Tools Used
+- Python (Pandas, NumPy)
+- Matplotlib / Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+## 📈 Visualisations
+![Total Score](images/total-score.png)
+![Correlation Heatmap](images/correlation.png)
+
+## 📁 Files
+- `football-performance-analysis.ipynb` — main notebook
+- `premierLeague.xlsx` — dataset
+- `report.pdf` — full report
