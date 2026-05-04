@@ -1,6 +1,8 @@
 # ⚽ Premier League Football Performance Analysis
 
-An end-to-end data analytics project exploring team performance in the Premier League (2019/20 season) using match statistics, data visualisation, and machine learning.
+> A data-driven analysis of Premier League performance using visual analytics and machine learning to identify key factors behind match outcomes.
+
+An end-to-end data analytics project...
 
 ---
 
@@ -12,10 +14,10 @@ This project analyses football match data to identify key performance factors th
 
 ## 🔍 Key Insights
 
-- Successful shots have the strongest relationship with match outcomes  
-- Possession and passing contribute moderately to performance  
-- Defensive metrics (fouls, saves) vary significantly across teams  
-- Logistic regression achieved ~68% accuracy but struggled with class imbalance  
+- Successful shots are the strongest predictor of match outcomes  
+- Possession and passing contribute, but are not decisive on their own  
+- Teams cluster into distinct attacking and defensive performance profiles  
+- Logistic regression achieved ~68% accuracy, with performance limited by class imbalance  
 
 ---
 
@@ -31,28 +33,28 @@ This project analyses football match data to identify key performance factors th
 ## 📈 Visualisations
 
 ### Total Score by Team
-Shows variation in team performance across the league.
+Clear performance gaps exist between top and bottom teams, highlighting overall competitiveness in the league.
 ![Total Score](images/total-score.png)
 
 ### Correlation Between Metrics
-Highlights relationships between match statistics and outcomes.
+Successful shots show the strongest relationship with match outcomes, while possession has a weaker impact than expected.
 ![Correlation Heatmap](images/correlation-heatmap.png)
 
 ### Team Performance Heatmap
-Compares teams across multiple performance metrics.
+Reveals differences in team play styles, particularly between attacking and defensive performance metrics.
 ![Performance Heatmap](images/performance-heatmap.png)
 
 ### Clustering Evaluation
-Used to group teams based on similar performance characteristics.
+Groups teams into performance-based clusters, highlighting similarities in playing style and effectiveness.
 ![Clustering](images/clustering.png)
 
 ### Distribution of Key Metrics
-Shows spread and variability of match statistics.
+Shows variability in match statistics, with certain metrics displaying significant spread across teams.
 ![Distribution](images/distribution.png)
 
 ---
 
-## 🤖 Methods Used
+## 🤖 Analytical Approach
 
 - Data cleaning & preprocessing  
 - Exploratory Data Analysis (EDA)  
@@ -79,7 +81,7 @@ Shows spread and variability of match statistics.
 
 ---
 
-## 📁 Project Files
+## 📁 Repository Contents
 
 - `football-performance-analysis.ipynb` — main analysis  
 - `premierLeague.xlsx` — dataset  
