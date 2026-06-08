@@ -1,88 +1,133 @@
-# ⚽ Premier League Football Performance Analysis
+📊 Franchise Performance Dashboard
 
-> A data-driven analysis of Premier League performance using visual analytics and machine learning to identify key factors behind match outcomes.
+An interactive R Shiny Business Intelligence dashboard designed to monitor franchise performance, analyse KPIs, and support executive decision-making through data-driven insights.
 
-An end-to-end data analytics project...
+A complete dashboard development project combining financial, operational, and customer experience analytics into a single reporting platform.
 
----
+⸻
 
-## 📊 Project Overview
+📊 Project Overview
 
-This project analyses football match data to identify key performance factors that influence match outcomes. It combines exploratory data analysis, statistical relationships, and machine learning models to uncover patterns in team performance.
+This project was developed to provide franchise managers and executives with a centralised view of business performance across multiple franchise locations.
 
----
+The dashboard enables users to:
 
-## 🔍 Key Insights
+* Monitor revenue and growth trends
+* Compare franchise performance
+* Track customer satisfaction and complaints
+* Analyse operational efficiency
+* Generate executive-level insights and recommendations
 
-- Successful shots are the strongest predictor of match outcomes  
-- Possession and passing contribute, but are not decisive on their own  
-- Teams cluster into distinct attacking and defensive performance profiles  
-- Logistic regression achieved ~68% accuracy, with performance limited by class imbalance  
+⸻
 
----
+🔍 Key Insights
 
-## 🛠 Tools & Technologies
+* Manchester generated the highest overall revenue across the network.
+* Leeds recorded the highest complaint rate, highlighting potential service issues.
+* Newcastle achieved the highest customer satisfaction score.
+* Several franchises showed capacity utilisation gaps despite strong attendance levels.
+* Revenue per booking remained relatively consistent across most locations.
+* Dashboard recommendations highlight opportunities for operational improvement and customer experience enhancement.
 
-- Python (Pandas, NumPy)
-- Data Visualisation (Matplotlib, Seaborn)
-- Scikit-learn (Clustering, Logistic Regression)
-- Jupyter Notebook
+⸻
 
----
+🛠 Tools & Technologies
 
-## 📈 Visualisations
+* R
+* Shiny
+* shinydashboard
+* ggplot2
+* plotly
+* dplyr
+* DT
+* Font Awesome Icons
 
-### Total Score by Team
-Clear performance gaps exist between top and bottom teams, highlighting overall competitiveness in the league.
-![Total Score](images/total-score.png)
+⸻
 
-### Correlation Between Metrics
-Successful shots show the strongest relationship with match outcomes, while possession has a weaker impact than expected.
-![Correlation Heatmap](images/correlation-heatmap.png)
+📈 Dashboard Visualisations
 
-### Team Performance Heatmap
-Reveals differences in team play styles, particularly between attacking and defensive performance metrics.
-![Performance Heatmap](images/performance-heatmap.png)
+Executive Overview
 
-### Clustering Evaluation
-Groups teams into performance-based clusters, highlighting similarities in playing style and effectiveness.
-![Clustering](images/clustering.png)
+Provides executive KPI reporting including revenue, bookings, customer growth, complaint rate, and revenue trends.
 
-### Distribution of Key Metrics
-Shows variability in match statistics, with certain metrics displaying significant spread across teams.
-![Distribution](images/distribution.png)
+⸻
 
----
+Executive Insights
 
-## 🤖 Analytical Approach
+Displays automated business recommendations and strategic insights generated from franchise performance data.
 
-- Data cleaning & preprocessing  
-- Exploratory Data Analysis (EDA)  
-- Correlation analysis  
-- Clustering (K-Means, Hierarchical)  
-- Logistic Regression  
+⸻
 
----
+Revenue & Growth Analysis
 
-## ⚠️ Limitations
+Provides revenue contribution analysis, revenue trends, revenue per booking calculations, and revenue versus complaint rate comparisons.
 
-- Model performance affected by class imbalance  
-- Limited predictive accuracy (~68%)  
-- Could be improved with more advanced models  
+⸻
 
----
+Customer Experience Dashboard
 
-## 🚀 Future Improvements
+Tracks customer satisfaction, complaint rates, customer experience trends, and franchise service performance.
 
-- Apply SMOTE to balance classes  
-- Use Random Forest / XGBoost  
-- Hyperparameter tuning  
-- Build an interactive dashboard (Streamlit)  
+⸻
 
----
+Operations Dashboard
 
-## 📁 Repository Contents
+Monitors attendance, capacity utilisation, operational performance metrics, and efficiency indicators.
 
-- `football-performance-analysis.ipynb` — main analysis  
-- `premierLeague.xlsx` — dataset  
-- `report.pdf` — full written report  
+⸻
+
+Franchise Performance Ranking
+
+Interactive ranking table allowing comparison of franchise locations across multiple KPIs including revenue, bookings, attendance, customer satisfaction, and complaint rates.
+
+⸻
+
+📊 Analytical Features
+
+* Executive KPI Reporting
+* Dynamic Filtering
+* Interactive Visualisations
+* Franchise Benchmarking
+* Trend Analysis
+* Customer Experience Analytics
+* Operational Performance Monitoring
+* Executive Recommendation Engine
+* Data Export Functionality
+
+⸻
+
+💡 Business Value
+
+The dashboard helps organisations:
+
+* Identify top-performing franchises
+* Detect operational inefficiencies
+* Monitor customer satisfaction levels
+* Reduce complaint rates
+* Improve capacity utilisation
+* Support strategic decision-making
+* Standardise performance reporting across locations
+
+⸻
+
+🚀 Future Improvements
+
+* Integration with live franchise databases
+* Predictive revenue forecasting
+* Automated KPI alerts
+* Machine learning-based franchise performance prediction
+* User authentication and role-based access
+* Mobile-friendly dashboard optimisation
+
+⸻
+
+📁 Repository Contents
+
+* app.R — Main R Shiny application
+* Executive_Overview.png
+* Executive_Insights.png
+* Revenue_Growth.png
+* Customer_Experience.png
+* Operations.png
+* Franchise_Performance_Rank.png
+
