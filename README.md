@@ -1,129 +1,91 @@
-# 📊 Franchise Performance Dashboard
 
-> An interactive R Shiny Business Intelligence dashboard designed to support franchise performance monitoring, executive reporting, KPI analysis, and strategic decision-making.
+# ⚽ Premier League Football Performance Analysis
 
-This project demonstrates how dashboard-driven analytics can help franchise organisations monitor performance, identify trends, and improve operational efficiency through interactive reporting.
+> A data-driven analysis of Premier League performance using visual analytics and machine learning to identify key factors behind match outcomes.
+
+An end-to-end data analytics project...
 
 ---
 
 ## 📊 Project Overview
 
-The dashboard combines financial, operational, and customer experience data into a single reporting platform.
-
-Users can:
-
-- Monitor franchise performance
-- Track revenue growth
-- Analyse customer satisfaction
-- Identify operational bottlenecks
-- Compare franchise locations
-- Support executive decision-making
+This project analyses football match data to identify key performance factors that influence match outcomes. It combines exploratory data analysis, statistical relationships, and machine learning models to uncover patterns in team performance.
 
 ---
 
 ## 🔍 Key Insights
 
-- Manchester generated the highest overall revenue.
-- Newcastle achieved the highest customer satisfaction score.
-- Leeds showed the highest complaint rate.
-- Several franchises displayed capacity utilisation opportunities.
-- Revenue performance varied significantly across locations.
+- Successful shots are the strongest predictor of match outcomes  
+- Possession and passing contribute, but are not decisive on their own  
+- Teams cluster into distinct attacking and defensive performance profiles  
+- Logistic regression achieved ~68% accuracy, with performance limited by class imbalance  
 
 ---
 
 ## 🛠 Tools & Technologies
 
-- R
-- Shiny
-- shinydashboard
-- ggplot2
-- plotly
-- dplyr
-- DT
-- Font Awesome Icons
+- Python (Pandas, NumPy)
+- Data Visualisation (Matplotlib, Seaborn)
+- Scikit-learn (Clustering, Logistic Regression)
+- Jupyter Notebook
 
 ---
 
-## 📈 Executive KPI Reporting
+## 📈 Visualisations
 
-The Executive Overview page provides a high-level summary of business performance through key metrics including Revenue, Bookings, New Customers, Complaint Rate, and automated business recommendations.
+### Total Score by Team
+Clear performance gaps exist between top and bottom teams, highlighting overall competitiveness in the league.
+![Total Score](images/total-score.png)
 
-![Executive Overview](Executive_Overview.png)
+### Correlation Between Metrics
+Successful shots show the strongest relationship with match outcomes, while possession has a weaker impact than expected.
+![Correlation Heatmap](images/correlation-heatmap.png)
 
-The dashboard allows management teams to quickly assess overall franchise health and identify areas requiring attention.
+### Team Performance Heatmap
+Reveals differences in team play styles, particularly between attacking and defensive performance metrics.
+![Performance Heatmap](images/performance-heatmap.png)
 
----
+### Clustering Evaluation
+Groups teams into performance-based clusters, highlighting similarities in playing style and effectiveness.
+![Clustering](images/clustering.png)
 
-## 💡 Executive Insights
-
-The Executive Insights page automatically generates business-focused recommendations based on franchise performance data.
-
-![Executive Insights](Executive_Insights.png)
-
-This helps decision-makers focus on improvement opportunities and operational priorities.
-
----
-
-## 📈 Revenue & Growth Analysis
-
-Revenue performance is analysed through multiple visualisations including revenue contribution, revenue trends, and revenue-per-booking metrics.
-
-![Revenue Growth](Revenue_Growth.png)
-
-These visualisations help identify top-performing franchises and monitor business growth over time.
+### Distribution of Key Metrics
+Shows variability in match statistics, with certain metrics displaying significant spread across teams.
+![Distribution](images/distribution.png)
 
 ---
 
-## 😊 Customer Experience Analysis
+## 🤖 Analytical Approach
 
-Customer satisfaction and complaints are important indicators of service quality and franchise performance.
-
-![Customer Experience](Customer_Experience.png)
-
-The dashboard enables comparison of customer experience metrics across franchise locations and helps identify areas requiring service improvements.
-
----
-
-## ⚙️ Operations Performance Monitoring
-
-Operational efficiency is monitored through attendance, utilisation, and capacity-related metrics.
-
-![Operations](Operations.png)
-
-These insights allow management to evaluate resource utilisation and operational effectiveness.
+- Data cleaning & preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Correlation analysis  
+- Clustering (K-Means, Hierarchical)  
+- Logistic Regression  
 
 ---
 
-## 🏆 Franchise Performance Ranking
+## ⚠️ Limitations
 
-An interactive ranking table provides a complete comparison of franchise performance across key business metrics.
-
-![Franchise Performance Ranking](Franchise_Performance_Rank.png)
-
-This enables stakeholders to benchmark locations and identify best-performing franchises.
-
----
-
-## 📊 Skills Demonstrated
-
-- Business Intelligence Development
-- Dashboard Design
-- KPI Reporting
-- Data Visualisation
-- Executive Reporting
-- Data Storytelling
-- Stakeholder-Focused Reporting
-- R Shiny Development
-- Interactive Analytics
+- Model performance affected by class imbalance  
+- Limited predictive accuracy (~68%)  
+- Could be improved with more advanced models  
 
 ---
 
 ## 🚀 Future Improvements
 
-- Real-time data integration
-- Predictive revenue forecasting
-- Automated KPI alerts
-- Machine learning-based performance prediction
-- Mobile dashboard optimisation
+- Apply SMOTE to balance classes  
+- Use Random Forest / XGBoost  
+- Hyperparameter tuning  
+- Build an interactive dashboard (Streamlit)  
 
+---
 
+## 📁 Repository Contents
+
+- `football-performance-analysis.ipynb` — main analysis  
+- `premierLeague.xlsx` — dataset  
+- `report.pdf` — full written report  
+
+Also I renamed the photos so u can add them to the franchise dashboard readme for GitHub 
