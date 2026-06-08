@@ -1,133 +1,129 @@
-📊 Franchise Performance Dashboard
+# 📊 Franchise Performance Dashboard
 
-An interactive R Shiny Business Intelligence dashboard designed to monitor franchise performance, analyse KPIs, and support executive decision-making through data-driven insights.
+> An interactive R Shiny Business Intelligence dashboard designed to support franchise performance monitoring, executive reporting, KPI analysis, and strategic decision-making.
 
-A complete dashboard development project combining financial, operational, and customer experience analytics into a single reporting platform.
+This project demonstrates how dashboard-driven analytics can help franchise organisations monitor performance, identify trends, and improve operational efficiency through interactive reporting.
 
-⸻
+---
 
-📊 Project Overview
+## 📊 Project Overview
 
-This project was developed to provide franchise managers and executives with a centralised view of business performance across multiple franchise locations.
+The dashboard combines financial, operational, and customer experience data into a single reporting platform.
 
-The dashboard enables users to:
+Users can:
 
-* Monitor revenue and growth trends
-* Compare franchise performance
-* Track customer satisfaction and complaints
-* Analyse operational efficiency
-* Generate executive-level insights and recommendations
+- Monitor franchise performance
+- Track revenue growth
+- Analyse customer satisfaction
+- Identify operational bottlenecks
+- Compare franchise locations
+- Support executive decision-making
 
-⸻
+---
 
-🔍 Key Insights
+## 🔍 Key Insights
 
-* Manchester generated the highest overall revenue across the network.
-* Leeds recorded the highest complaint rate, highlighting potential service issues.
-* Newcastle achieved the highest customer satisfaction score.
-* Several franchises showed capacity utilisation gaps despite strong attendance levels.
-* Revenue per booking remained relatively consistent across most locations.
-* Dashboard recommendations highlight opportunities for operational improvement and customer experience enhancement.
+- Manchester generated the highest overall revenue.
+- Newcastle achieved the highest customer satisfaction score.
+- Leeds showed the highest complaint rate.
+- Several franchises displayed capacity utilisation opportunities.
+- Revenue performance varied significantly across locations.
 
-⸻
+---
 
-🛠 Tools & Technologies
+## 🛠 Tools & Technologies
 
-* R
-* Shiny
-* shinydashboard
-* ggplot2
-* plotly
-* dplyr
-* DT
-* Font Awesome Icons
+- R
+- Shiny
+- shinydashboard
+- ggplot2
+- plotly
+- dplyr
+- DT
+- Font Awesome Icons
 
-⸻
+---
 
-📈 Dashboard Visualisations
+## 📈 Executive KPI Reporting
 
-Executive Overview
+The Executive Overview page provides a high-level summary of business performance through key metrics including Revenue, Bookings, New Customers, Complaint Rate, and automated business recommendations.
 
-Provides executive KPI reporting including revenue, bookings, customer growth, complaint rate, and revenue trends.
+![Executive Overview](Executive_Overview.png)
 
-⸻
+The dashboard allows management teams to quickly assess overall franchise health and identify areas requiring attention.
 
-Executive Insights
+---
 
-Displays automated business recommendations and strategic insights generated from franchise performance data.
+## 💡 Executive Insights
 
-⸻
+The Executive Insights page automatically generates business-focused recommendations based on franchise performance data.
 
-Revenue & Growth Analysis
+![Executive Insights](Executive_Insights.png)
 
-Provides revenue contribution analysis, revenue trends, revenue per booking calculations, and revenue versus complaint rate comparisons.
+This helps decision-makers focus on improvement opportunities and operational priorities.
 
-⸻
+---
 
-Customer Experience Dashboard
+## 📈 Revenue & Growth Analysis
 
-Tracks customer satisfaction, complaint rates, customer experience trends, and franchise service performance.
+Revenue performance is analysed through multiple visualisations including revenue contribution, revenue trends, and revenue-per-booking metrics.
 
-⸻
+![Revenue Growth](Revenue_Growth.png)
 
-Operations Dashboard
+These visualisations help identify top-performing franchises and monitor business growth over time.
 
-Monitors attendance, capacity utilisation, operational performance metrics, and efficiency indicators.
+---
 
-⸻
+## 😊 Customer Experience Analysis
 
-Franchise Performance Ranking
+Customer satisfaction and complaints are important indicators of service quality and franchise performance.
 
-Interactive ranking table allowing comparison of franchise locations across multiple KPIs including revenue, bookings, attendance, customer satisfaction, and complaint rates.
+![Customer Experience](Customer_Experience.png)
 
-⸻
+The dashboard enables comparison of customer experience metrics across franchise locations and helps identify areas requiring service improvements.
 
-📊 Analytical Features
+---
 
-* Executive KPI Reporting
-* Dynamic Filtering
-* Interactive Visualisations
-* Franchise Benchmarking
-* Trend Analysis
-* Customer Experience Analytics
-* Operational Performance Monitoring
-* Executive Recommendation Engine
-* Data Export Functionality
+## ⚙️ Operations Performance Monitoring
 
-⸻
+Operational efficiency is monitored through attendance, utilisation, and capacity-related metrics.
 
-💡 Business Value
+![Operations](Operations.png)
 
-The dashboard helps organisations:
+These insights allow management to evaluate resource utilisation and operational effectiveness.
 
-* Identify top-performing franchises
-* Detect operational inefficiencies
-* Monitor customer satisfaction levels
-* Reduce complaint rates
-* Improve capacity utilisation
-* Support strategic decision-making
-* Standardise performance reporting across locations
+---
 
-⸻
+## 🏆 Franchise Performance Ranking
 
-🚀 Future Improvements
+An interactive ranking table provides a complete comparison of franchise performance across key business metrics.
 
-* Integration with live franchise databases
-* Predictive revenue forecasting
-* Automated KPI alerts
-* Machine learning-based franchise performance prediction
-* User authentication and role-based access
-* Mobile-friendly dashboard optimisation
+![Franchise Performance Ranking](Franchise_Performance_Rank.png)
 
-⸻
+This enables stakeholders to benchmark locations and identify best-performing franchises.
 
-📁 Repository Contents
+---
 
-* app.R — Main R Shiny application
-* Executive_Overview.png
-* Executive_Insights.png
-* Revenue_Growth.png
-* Customer_Experience.png
-* Operations.png
-* Franchise_Performance_Rank.png
+## 📊 Skills Demonstrated
+
+- Business Intelligence Development
+- Dashboard Design
+- KPI Reporting
+- Data Visualisation
+- Executive Reporting
+- Data Storytelling
+- Stakeholder-Focused Reporting
+- R Shiny Development
+- Interactive Analytics
+
+---
+
+## 🚀 Future Improvements
+
+- Real-time data integration
+- Predictive revenue forecasting
+- Automated KPI alerts
+- Machine learning-based performance prediction
+- Mobile dashboard optimisation
+
 
